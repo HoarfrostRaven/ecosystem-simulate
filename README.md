@@ -1,4 +1,4 @@
-# ProjectBE - Ecosystem Simulation
+# Ecosystem Simulation
 
 ## Introduction
 
@@ -12,28 +12,28 @@ Collisions with the boundaries of the environment do not result in damage, as th
 
 ## Dependencies
 
-The ProjectBE application has the following dependencies:
+This application has the following dependencies:
 
 - [Random](https://github.com/effolkronium/random) - A header-only C++11 library for generating random numbers.
 
-The Random library is used to generate random numbers in the project. The necessary files have been included in the `ProjectBE/Ecosystem/include` directory, so there is no need to separately download and install the library.
+The Random library is used to generate random numbers in the project. The necessary files have been included in the `ecosystem-simulate/Ecosystem/include` directory, so there is no need to separately download and install the library.
 
-If you want to use the Random library in another C++ project, you can simply include the `random.hpp` file from the `ProjectBE/Ecosystem/include` directory in your project.
+If you want to use the Random library in another C++ project, you can simply include the `random.hpp` file from the `ecosystem-simulate/Ecosystem/include` directory in your project.
 
 ## Installation and Usage
 
-To install and run the ProjectBE application, follow the instructions below:
+To install and run this application, follow the instructions below:
 
 1. Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/CALEB-jiale/ProjectBE.git
+git clone https://github.com/HoarfrostRaven/ecosystem-simulate.git
 ```
 
-2. Navigate to the `ProjectBE/Ecosystem` directory:
+2. Navigate to the `ecosystem-simulate/Ecosystem` directory:
 
 ```bash
-cd ProjectBE/Ecosystem
+cd ecosystem-simulate/Ecosystem
 ```
 
 3. Run the command `make run` to start the application:
